@@ -34,6 +34,10 @@
     "./s3": {
       "default": "./lib/s3.js",
       "types": "./lib/s3.d.ts"
+    },
+    "./memory": {
+      "default": "./lib/memory.js",
+      "types": "./lib/memory.d.ts"
     }
   },
   "publishConfig": {
