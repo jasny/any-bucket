@@ -44,34 +44,34 @@
     "src"
   ],
   "devDependencies": {
-    "@aws-sdk/client-s3": "^3.363.0",
-    "@azure/storage-blob": "^12.14.0",
-    "@google-cloud/storage": "^6.11.0",
+    "@aws-sdk/client-s3": "^3.1010.0",
+    "@azure/storage-blob": "^12.31.0",
+    "@google-cloud/storage": "^7.19.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/chai": "^4.3.5",
-    "@types/jsdom": "^20.0.1",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^20.3.3",
-    "@types/sinon": "^10.0.15",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.61.0",
-    "chai": "^4.3.7",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "mocha": "^10.2.0",
-    "mock-fs": "^5.2.0",
-    "prettier": "^2.8.8",
+    "@types/chai": "^5.2.3",
+    "@types/jsdom": "^28.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.5.0",
+    "@types/sinon": "^21.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "chai": "^6.2.2",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "mocha": "^11.7.5",
+    "mock-fs": "^5.5.0",
+    "prettier": "^3.8.1",
     "semantic-release": "^25.0.3",
-    "sinon": "^15.2.0",
-    "ts-loader": "^9.4.2",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.5"
+    "sinon": "^21.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "@aws-sdk/client-s3": "3.*",
     "@azure/storage-blob": "12.*",
-    "@google-cloud/storage": "6.*"
-  }
+    "@google-cloud/storage": "7.*"
+  },
+  "packageManager": "yarn@4.13.0+sha512.5c20ba010c99815433e5c8453112165e673f1c7948d8d2b267f4b5e52097538658388ebc9f9580656d9b75c5cc996f990f611f99304a2197d4c56d21eea370e7"
 }
