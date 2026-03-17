@@ -42,6 +42,10 @@
     "./vercel": {
       "default": "./lib/vercel.js",
       "types": "./lib/vercel.d.ts"
+    },
+    "./netlify": {
+      "default": "./lib/netlify.js",
+      "types": "./lib/netlify.d.ts"
     }
   },
   "publishConfig": {
@@ -55,6 +59,7 @@
     "@aws-sdk/client-s3": "^3.1010.0",
     "@azure/storage-blob": "^12.31.0",
     "@google-cloud/storage": "^7.19.0",
+    "@netlify/blobs": "^10.7.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/chai": "^5.2.3",
@@ -78,16 +83,28 @@
     "typescript": "^5.9.3"
   },
   "peerDependenciesMeta": {
-    "@aws-sdk/client-s3": { "optional": true },
-    "@azure/storage-blob": { "optional": true },
-    "@google-cloud/storage": { "optional": true },
-    "@vercel/blob": { "optional": true }
+    "@aws-sdk/client-s3": {
+      "optional": true
+    },
+    "@azure/storage-blob": {
+      "optional": true
+    },
+    "@google-cloud/storage": {
+      "optional": true
+    },
+    "@vercel/blob": {
+      "optional": true
+    },
+    "@netlify/blobs": {
+      "optional": true
+    }
   },
   "peerDependencies": {
     "@aws-sdk/client-s3": "3.*",
     "@azure/storage-blob": "12.*",
     "@google-cloud/storage": "7.*",
-    "@vercel/blob": ">=1"
+    "@vercel/blob": ">=1",
+    "@netlify/blobs": ">=6"
   },
   "packageManager": "yarn@4.13.0+sha512.5c20ba010c99815433e5c8453112165e673f1c7948d8d2b267f4b5e52097538658388ebc9f9580656d9b75c5cc996f990f611f99304a2197d4c56d21eea370e7"
 }
